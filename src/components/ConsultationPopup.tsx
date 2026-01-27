@@ -13,8 +13,6 @@ import {
 import consultationImage from "@/assets/consultation-image.jpg";
 import portfolioBefore1 from "@/assets/portfolio-before-1.jpg";
 import portfolioAfter1 from "@/assets/portfolio-after-1.jpg";
-import portfolioBefore2 from "@/assets/portfolio-before-2.jpg";
-import portfolioAfter2 from "@/assets/portfolio-after-2.jpg";
 
 interface ConsultationPopupProps {
   isOpen: boolean;
@@ -27,11 +25,6 @@ const portfolioPairs = [
     before: portfolioBefore1,
     after: portfolioAfter1,
     title: "Classic Bob Transformation",
-  },
-  {
-    before: portfolioBefore2,
-    after: portfolioAfter2,
-    title: "Modern Layered Cut",
   },
 ];
 
@@ -92,7 +85,7 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="fixed inset-0 z-50 bg-foreground/80 backdrop-blur-sm"
+            className="fixed inset-0 z-50 bg-foreground/80 backdrop-blur-sm flex items-center justify-center"
           />
 
           {/* Modal */}
@@ -101,7 +94,7 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="fixed inset-4 md:inset-auto md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 z-50 w-auto md:w-[90vw] md:max-w-6xl md:max-h-[90vh] overflow-hidden bg-background"
+            className="fixed inset-0 md:inset-auto md:left-[16%] md:top-[4%] md:-translate-x-1/2 md:-translate-y-1/2 z-50 w-auto md:w-[90vw] md:max-w-6xl md:max-h-[90vh] overflow-hidden bg-background"
           >
             {/* Close Button */}
             <button
@@ -117,7 +110,7 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
                 {/* Left Side - Image & Portfolio */}
                 <div className="hidden md:block bg-foreground relative">
                   {/* Main Image */}
-                  <div className="aspect-[3/4] relative">
+                  <div className="aspect-[4/3] relative">
                     <img
                       src={consultationImage}
                       alt="Muse Academy Consultation"
@@ -166,7 +159,7 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
                 </div>
 
                 {/* Right Side - Form */}
-                <div className="p-8 md:p-12 flex flex-col justify-center">
+                <div className="p-8 md:p-12 flex flex-col justify-start">
                   <AnimatePresence mode="wait">
                     {isSubmitted ? (
                       <motion.div
@@ -210,7 +203,7 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
                         <p className="text-caption text-muted-foreground mb-4">
                           {type === "apply" ? "Apply Now" : "Schedule Consultation"}
                         </p>
-                        <div className="divider-editorial mb-6" />
+                        <div className="divider-editorial" />
                         <h2 className="headline-medium mb-2">
                           {type === "apply" ? (
                             <>
@@ -386,6 +379,7 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
                           </div>
 
                           {/* Experience Level */}
+                          {type === "apply" && (
                           <div>
                             <label
                               htmlFor="experience"
@@ -413,6 +407,8 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
                               </option>
                             </select>
                           </div>
+
+                          )}
 
                           {/* Message */}
                           <div>
