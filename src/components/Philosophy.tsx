@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import academyImage from "@/assets/academy-culture.jpg";
+import academyImage from "@/assets/image_11.jpeg";
 
 const Philosophy = () => {
   const ref = useRef(null);

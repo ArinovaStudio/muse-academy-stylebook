@@ -26,12 +26,10 @@ const Header = () => {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          isScrolled ? "bg-background/95 backdrop-blur-sm" : "bg-transparent"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-background/95 backdrop-blur-sm`}
       >
         <div className="container-editorial">
-          <div className="flex items-center justify-between h-20 md:h-24">
+          <div className="flex items-center justify-between h-20 md:h-16">
             {/* Logo */}
             <a href="#" className="relative z-50">
               <span className="font-display text-xl md:text-2xl tracking-tight">

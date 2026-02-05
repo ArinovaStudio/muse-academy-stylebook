@@ -1,0 +1,143 @@
+{
+  "id": "advance-diploma-hair-beauty",
+  "slug": "advance-diploma-hair-beauty",
+  "title": "Advance Diploma in Hair & Beauty",
+  "subtitle": "Comprehensive professional training in beauty therapy, hair styling, cutting & advanced hair treatments",
+  "duration": "6 Months",
+  "schedule": "3 Days in a Week",
+  "level": "Advance Diploma",
+  "certification": "Advance Diploma Certificate",
+  "pricing": {
+    "originalPrice": 50000,
+    "offerPrice": 30000,
+    "currency": "INR"
+  },
+  "description": "The Advance Diploma in Hair & Beauty is a complete professional program designed for students who want in-depth expertise in beauty therapy and advanced hair services. The course covers skin theory, salon services, hair cutting, hair styling, colouring, chemical treatments, spa therapies, and client handling with strong practical exposure.",
+  "whatYouWillLearn": [
+    "The skin structure (about skin, skin layers, skin types, skin functions, pH level)",
+    "Threading",
+    "Personal grooming and hygiene",
+    "Daily skin care (CTM)",
+    "Waxing",
+    "Manicure and pedicure",
+    "Bleaching",
+    "Skin disorder",
+    "Facial",
+    "Basic cleanup",
+    "Care of beauty salon",
+    "Dealing with customer",
+    "Use of facial tools",
+    "Advance waxing",
+    "International product knowledge",
+    "Men’s hair and shaving",
+    "Advance colouring",
+    "Ombre and balayage",
+    "Hair straightening",
+    "Keratin treatment",
+    "Botox treatment",
+    "Products knowledge",
+    "Hair theory",
+    "Shampoo and conditioning",
+    "Hair oiling and head massage",
+    "Hair styling (blow dryer, ironing, crimping, curling)",
+    "Hair setting (blast dry, flat dry, in curls, out curls)",
+    "Cutting theory and scissor handling",
+    "Basic hair cuts (one length, V cut, U cut, layer cut, bob – basic, feather cut)",
+    "Advance hair cuts (graduation bob, square layer, shag cut, pixie hair cut, face framing, natural inversion cut, blended elevation)",
+    "Hair spa",
+    "Anti dandruff treatment",
+    "Colour theory",
+    "Global and highlights colour"
+  ],
+  "courseStructure": {
+    "skinAndBeautyFoundation": [
+      "The skin structure",
+      "About skin",
+      "Skin layers",
+      "Skin types",
+      "Skin functions",
+      "pH level",
+      "Threading",
+      "Personal grooming and hygiene",
+      "Daily skin care (CTM)",
+      "Waxing",
+      "Advance waxing",
+      "Manicure and pedicure",
+      "Bleaching",
+      "Skin disorder",
+      "Facial",
+      "Basic cleanup",
+      "Use of facial tools"
+    ],
+    "salonManagement": [
+      "Care of beauty salon",
+      "Dealing with customer",
+      "International product knowledge",
+      "Products knowledge"
+    ],
+    "mensGrooming": [
+      "Men’s hair",
+      "Shaving"
+    ],
+    "hairBasics": [
+      "Hair theory",
+      "Shampoo and conditioning",
+      "Hair oiling",
+      "Head massage"
+    ],
+    "hairStylingAndSetting": [
+      "Hair styling using blow dryer",
+      "Hair ironing",
+      "Hair crimping",
+      "Hair curling",
+      "Hair setting – blast dry",
+      "Hair setting – flat dry",
+      "Hair setting – in curls",
+      "Hair setting – out curls"
+    ],
+    "hairCutting": [
+      "Cutting theory",
+      "Scissor handling",
+      "One length cut",
+      "V cut",
+      "U cut",
+      "Layer cut",
+      "Bob cut (basic)",
+      "Feather cut",
+      "Graduation bob",
+      "Square layer",
+      "Shag cut",
+      "Pixie hair cut",
+      "Face framing",
+      "Natural inversion cut",
+      "Blended elevation"
+    ],
+    "chemicalAndColourServices": [
+      "Advance colouring",
+      "Ombre colouring",
+      "Balayage",
+      "Hair straightening",
+      "Keratin treatment",
+      "Botox treatment",
+      "Colour theory",
+      "Global colour",
+      "Highlights colour"
+    ],
+    "hairAndScalpTreatments": [
+      "Hair spa",
+      "Anti dandruff treatment"
+    ]
+  },
+  "cta": {
+    "primary": "Enroll Now",
+    "secondary": "Download Full Curriculum"
+  },
+  "image": {
+    "alt": "Advance Diploma in Hair and Beauty professional training",
+    "usage": "course-hero"
+  },
+  "seo": {
+    "metaTitle": "Advance Diploma in Hair & Beauty | Muse Academy",
+    "metaDescription": "Join Muse Academy’s Advance Diploma in Hair & Beauty. Learn skin care, salon services, advanced hair cutting, colouring, styling, chemical treatments & professional techniques."
+  }
+}

@@ -29,10 +29,10 @@ const CallToAction = () => {
                 Begin Your Journey
               </p>
               <div className="divider-editorial mx-auto mb-8" />
-              <h2 className="headline-display mb-8">
+              <h2 className="text-8xl mb-8">
                 Ready to become
                 <br />
-                <span className="italic">exceptional?</span>
+                <span className="italic text-9xl">exceptional?</span>
               </h2>
               <p className="text-editorial text-muted-foreground max-w-xl mx-auto mb-12">
                 Applications are now open for our upcoming cohort. Take the first 
@@ -72,27 +72,27 @@ const CallToAction = () => {
                 <div>
                   <p className="text-caption text-muted-foreground mb-2">Location</p>
                   <p className="font-display text-lg">
-                    123 Fashion District
+                    Near Udichi Bhavan, Mal Bazar
                     <br />
-                    New York, NY 10001
+                    Jalpaiguri, West Bengal - 735221
                   </p>
                 </div>
                 <div>
                   <p className="text-caption text-muted-foreground mb-2">Email</p>
                   <a
-                    href="mailto:admissions@museacademy.com"
+                    href="mailto:musesalonacademy@gmail.com"
                     className="font-display text-lg link-editorial"
                   >
-                    admissions@museacademy.com
+               musesalonacademy@gmail.com
                   </a>
                 </div>
                 <div>
                   <p className="text-caption text-muted-foreground mb-2">Phone</p>
                   <a
-                    href="tel:+12125551234"
+                    href="tel:+918388938664"
                     className="font-display text-lg link-editorial"
                   >
-                    +1 (212) 555-1234
+                    +91 83889 38664
                   </a>
                 </div>
               </div>

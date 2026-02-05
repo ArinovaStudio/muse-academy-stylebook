@@ -1,6 +1,22 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/image_8.jpeg";
+import image_0 from "@/assets/image_0.jpeg"
+import image_1 from "@/assets/image_1.jpeg";
+import image_2 from "@/assets/image_2.jpeg";
+import image_3 from "@/assets/image_3.jpeg";
+import image_4 from "@/assets/image_6.jpeg";
+import image_5 from "@/assets/image_5.jpeg";
+import image_6 from "@/assets/image_5.jpeg";
+import image_7 from "@/assets/image_7.jpeg";
+import image_8 from "@/assets/image_9.jpeg";
+import image_9 from "@/assets/image_10.jpeg";
 
+import last_image from "@/assets/hero-image.jpg"
+
+import { FadeImageSlider } from "./FadeInSlider";
+
+
+const heroImages = [heroImage, image_0, image_1, image_2, image_3, image_4, image_5, last_image]
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-end pb-16 md:pb-24 overflow-hidden">
@@ -12,11 +28,14 @@ const Hero = () => {
           transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
           className="w-full h-full"
         >
-          <img
+          <FadeImageSlider 
+          images={heroImages}
+          />
+          {/* <img
             src={heroImage}
             alt="Muse Academy - Precision Haircut"
             className="w-full h-full object-cover image-editorial"
-          />
+          /> */}
         </motion.div>
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
@@ -30,7 +49,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="text-caption text-muted-foreground mb-6"
+            className="text-caption mb-6"
           >
             The Art of Hair
           </motion.p>
@@ -41,7 +60,7 @@ const Hero = () => {
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               transition={{ delay: 0.6, duration: 1, ease: [0.16, 1, 0.3, 1] }}
-              className="headline-display text-foreground mb-8"
+              className="headline-display text-foreground mb-8 mix-blend-difference"
             >
               Master the
               <br />
@@ -54,7 +73,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="text-editorial text-muted-foreground max-w-lg mb-10"
+            className="text-editorial max-w-lg mb-10"
           >
             An elite academy for aspiring hairstylists. Learn precision cutting,
             modern techniques, and creative styling from industry masters.

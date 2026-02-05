@@ -1,0 +1,116 @@
+{
+  "id": "nail-art-extension-masterclass",
+  "slug": "master-class-nail-art-extension",
+  "title": "Master Class in Nail Art & Extension",
+  "subtitle": "Complete professional training covering nail art, gel polish & nail extensions",
+  "duration": "7 Days",
+  "schedule": "Daily Classes",
+  "level": "Master Class",
+  "certification": "Certificate of Completion",
+  "pricing": {
+    "originalPrice": 14000,
+    "offerPrice": 7000,
+    "currency": "INR"
+  },
+  "description": "This master class is a detailed, hands-on professional program covering nail anatomy, hygiene, gel polish application, nail art techniques, nail extensions, refilling, reshaping, removal, and advanced nail art. Every topic is taught practically to ensure students gain salon-ready expertise.",
+  "whatYouWillLearn": [
+    "Nail anatomy",
+    "Introduction of products & tools",
+    "Health & safety",
+    "Basic manicure",
+    "Types of nail shapes (square, round)",
+    "Table setup",
+    "Preparing nails for gel polish",
+    "Gel polish application (hands)",
+    "Gel polish removal",
+    "Different types of nail art",
+    "Glitters art",
+    "Mylars art",
+    "Water decals art",
+    "Cat eye nail art",
+    "Temporary nails extension",
+    "Semi nails extension",
+    "Preparing nails for extension",
+    "Tip application",
+    "Shaping extension",
+    "Gel polish application on extension",
+    "Other nail shapes (oval, almond)",
+    "Normal polish (lacquer) application – professional method",
+    "Press-on extension",
+    "Gel polish application (feet)",
+    "Hands-on practice (semi extension)",
+    "Permanent UV gel nail extension (hands)",
+    "Nail preparation for extension with normal filer & electric filer",
+    "Builder gel application",
+    "Leveling with normal filer & electric filer",
+    "Advance nail art",
+    "Refilling nail extension (hands)",
+    "Removing old products",
+    "Removing lifted area",
+    "Replacing tips",
+    "Reshaping",
+    "Builder gel fill up",
+    "Remove all types of nails extension"
+  ],
+  "courseStructure": {
+    "theoryAndBasics": [
+      "Nail anatomy",
+      "Health & safety",
+      "Introduction of products & tools",
+      "Table setup",
+      "Basic manicure"
+    ],
+    "gelPolishTraining": [
+      "Preparing nails for gel polish",
+      "Gel polish application (hands)",
+      "Gel polish application on extension",
+      "Gel polish application (feet)",
+      "Normal polish (lacquer) application – professional method",
+      "Gel polish removal"
+    ],
+    "nailArtTraining": [
+      "Different types of nail art",
+      "Glitters art",
+      "Mylars art",
+      "Water decals art",
+      "Cat eye nail art",
+      "Advance nail art"
+    ],
+    "extensionTraining": [
+      "Temporary nails extension",
+      "Semi nails extension",
+      "Press-on extension",
+      "Permanent UV gel nail extension (hands)",
+      "Preparing nails for extension",
+      "Tip application",
+      "Shaping extension",
+      "Other nail shapes (square, round, oval, almond)",
+      "Builder gel application",
+      "Builder gel fill up",
+      "Refilling nail extension (hands)",
+      "Removing old products",
+      "Removing lifted area",
+      "Replacing tips",
+      "Reshaping",
+      "Remove all types of nails extension"
+    ],
+    "toolsAndPractice": [
+      "Hands-on practice (semi extension)",
+      "Nail preparation using normal filer",
+      "Nail preparation using electric filer",
+      "Leveling with normal filer & electric filer"
+    ]
+  },
+  "cta": {
+    "primary": "Enroll Now",
+    "secondary": "Get Full Curriculum"
+  },
+  "image": {
+    "alt": "Master Class in Nail Art and Nail Extension professional training",
+    "usage": "course-hero"
+  },
+  "seo": {
+    "metaTitle": "Master Class in Nail Art & Extension | Muse Academy",
+    "metaDescription": "Join Muse Academy’s 7-day Master Class in Nail Art & Extension. Learn nail anatomy, gel polish, nail art, extensions, refilling, removal & advanced professional techniques."
+  }
+}

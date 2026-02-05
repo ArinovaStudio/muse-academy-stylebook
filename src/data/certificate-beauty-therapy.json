@@ -1,0 +1,80 @@
+{
+  "id": "certificate-beauty-therapy",
+  "slug": "certificate-course-beauty-therapy",
+  "title": "Certificate Course in Beauty Therapy",
+  "subtitle": "Professional training in skin care, salon services & beauty therapy fundamentals",
+  "duration": "3 Months",
+  "schedule": "3 Days in a Week",
+  "level": "Certificate Course",
+  "certification": "Certificate of Completion",
+  "pricing": {
+    "originalPrice": 20000,
+    "offerPrice": 14000,
+    "currency": "INR"
+  },
+  "description": "This certificate course in beauty therapy is designed to build a strong foundation in skin care, salon hygiene, facial treatments, waxing, grooming, and client handling. The course focuses on both theoretical understanding of skin and practical salon-ready skills required to work confidently in a professional beauty environment.",
+  "whatYouWillLearn": [
+    "The skin structure (about skin, skin layers, skin types, skin functions, pH level)",
+    "Threading",
+    "Personal grooming and hygiene",
+    "Daily skin care (CTM – Cleansing, Toning, Moisturizing)",
+    "Waxing",
+    "Manicure and pedicure",
+    "Bleaching",
+    "Skin disorders",
+    "Facial treatments",
+    "Basic cleanup",
+    "Care of beauty salon",
+    "Dealing with customers",
+    "Use of facial tools",
+    "Advance waxing",
+    "International product knowledge"
+  ],
+  "courseStructure": {
+    "skinTheory": [
+      "The skin structure",
+      "About skin",
+      "Skin layers",
+      "Skin types",
+      "Skin functions",
+      "pH level"
+    ],
+    "personalCareAndHygiene": [
+      "Personal grooming and hygiene",
+      "Daily skin care (CTM)",
+      "Care of beauty salon"
+    ],
+    "hairRemovalTechniques": [
+      "Threading",
+      "Waxing",
+      "Advance waxing"
+    ],
+    "handAndFootCare": [
+      "Manicure",
+      "Pedicure"
+    ],
+    "skinTreatments": [
+      "Facial treatments",
+      "Basic cleanup",
+      "Bleaching",
+      "Skin disorders"
+    ],
+    "professionalSkills": [
+      "Dealing with customers",
+      "Use of facial tools",
+      "International product knowledge"
+    ]
+  },
+  "cta": {
+    "primary": "Enroll Now",
+    "secondary": "View Full Syllabus"
+  },
+  "image": {
+    "alt": "Certificate Course in Beauty Therapy professional training",
+    "usage": "course-hero"
+  },
+  "seo": {
+    "metaTitle": "Certificate Course in Beauty Therapy | Muse Academy",
+    "metaDescription": "Join Muse Academy’s Certificate Course in Beauty Therapy. Learn skin structure, facial treatments, waxing, manicure, pedicure, hygiene, salon care & professional beauty skills."
+  }
+}

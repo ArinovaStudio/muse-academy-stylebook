@@ -1,0 +1,107 @@
+{
+  "id": "professional-makeup-course",
+  "slug": "professional-course-in-make-up",
+  "title": "Professional Course in Make-Up",
+  "subtitle": "Complete professional training in makeup, bridal looks, hair styling & grooming",
+  "duration": "20 Days",
+  "schedule": "Daily Classes",
+  "level": "Professional Course",
+  "certification": "Certificate of Completion",
+  "pricing": {
+    "originalPrice": 25000,
+    "offerPrice": 15000,
+    "currency": "INR"
+  },
+  "description": "The Professional Course in Make-Up is designed for aspiring makeup artists who want in-depth practical and theoretical training. The course covers makeup fundamentals, eye makeup techniques, bridal and party looks, hair styling, grooming, and professional makeup application methods suitable for salon, bridal, and event work.",
+  "whatYouWillLearn": [
+    "Make-up theory",
+    "Brush theory and brush care",
+    "Face preparation (CTM)",
+    "Eyebrow shaping and drawing",
+    "Lip correction and application",
+    "Corrective make-up for nose",
+    "Base application procedure",
+    "Eye make-up application",
+    "Smokey eye",
+    "Cut crease",
+    "Colourful eyes",
+    "Bridal eyes",
+    "Products knowledge",
+    "Highlighting, contouring and blending techniques",
+    "H.D and non H.D make-up",
+    "Reception make-up",
+    "Bridal make-up",
+    "Application of eye lashes and lenses",
+    "Saree draping",
+    "Hair up-do’s and front variation",
+    "Party and bridal hair styling",
+    "Waterproof make-up",
+    "Day self make-up",
+    "Personal grooming",
+    "Party make-up",
+    "Haldi look"
+  ],
+  "courseStructure": {
+    "makeupFoundation": [
+      "Make-up theory",
+      "Brush theory",
+      "Brush care",
+      "Face preparation (CTM)",
+      "Products knowledge"
+    ],
+    "facialFeaturesCorrection": [
+      "Eyebrow shaping",
+      "Eyebrow drawing",
+      "Lip correction",
+      "Lip application",
+      "Corrective make-up for nose"
+    ],
+    "baseAndEyeMakeup": [
+      "Base application procedure",
+      "Eye make-up application",
+      "Smokey eye",
+      "Cut crease",
+      "Colourful eyes",
+      "Bridal eyes"
+    ],
+    "advancedMakeupTechniques": [
+      "Highlighting techniques",
+      "Contouring techniques",
+      "Blending techniques",
+      "H.D make-up",
+      "Non H.D make-up",
+      "Waterproof make-up"
+    ],
+    "bridalAndPartyMakeup": [
+      "Bridal make-up",
+      "Reception make-up",
+      "Party make-up",
+      "Haldi look"
+    ],
+    "hairAndStyling": [
+      "Application of eye lashes",
+      "Application of lenses",
+      "Hair up-do’s",
+      "Front variation",
+      "Party hair styling",
+      "Bridal hair styling",
+      "Saree draping"
+    ],
+    "selfGrooming": [
+      "Day self make-up",
+      "Personal grooming"
+    ]
+  },
+  "cta": {
+    "primary": "Enroll Now",
+    "secondary": "View Full Curriculum"
+  },
+  "image": {
+    "alt": "Professional Course in Make-Up training at Muse Academy",
+    "usage": "course-hero"
+  },
+  "seo": {
+    "metaTitle": "Professional Course in Make-Up | Muse Academy",
+    "metaDescription": "Join Muse Academy’s Professional Course in Make-Up. Learn makeup theory, bridal makeup, party looks, HD makeup, hair styling, saree draping & professional techniques."
+  }
+}

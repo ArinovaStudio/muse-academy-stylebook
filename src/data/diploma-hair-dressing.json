@@ -1,0 +1,106 @@
+{
+  "id": "diploma-hair-dressing",
+  "slug": "diploma-in-hair-dressing",
+  "title": "Diploma in Hair Dressing",
+  "subtitle": "Professional training in hair styling, cutting, colouring & salon hair services",
+  "duration": "3 Months",
+  "schedule": "3 Days in a Week",
+  "level": "Diploma",
+  "certification": "Diploma Certificate",
+  "pricing": {
+    "originalPrice": 25000,
+    "offerPrice": 18000,
+    "currency": "INR"
+  },
+  "description": "The Diploma in Hair Dressing is a professional program focused on building strong skills in hair theory, hair styling, hair cutting, colouring, chemical treatments, and scalp care. The course combines theory with extensive practical training to prepare students for real salon environments.",
+  "whatYouWillLearn": [
+    "Hair theory",
+    "Shampoo and conditioning",
+    "Hair oiling and head massage",
+    "Hair styling (blow dryer, ironing, crimping, curling)",
+    "Hair setting (blast dry, flat dry, in curls, out curls)",
+    "Cutting theory and scissor handling",
+    "Basic hair cuts (one length, V cut, U cut, layer cut, bob – basic, feather cut)",
+    "Advance hair cuts (graduation bob, square layer, shag cut, pixie hair cut, face framing, natural inversion cut, blended elevation)",
+    "Hair spa",
+    "Anti dandruff treatment",
+    "Men’s hair and shaving",
+    "Advance colouring",
+    "Ombre and balayage",
+    "Hair straightening",
+    "Keratin treatment",
+    "Botox treatment",
+    "Products knowledge",
+    "Colour theory",
+    "Global and highlights colour"
+  ],
+  "courseStructure": {
+    "hairFoundation": [
+      "Hair theory",
+      "Shampoo and conditioning",
+      "Hair oiling",
+      "Head massage"
+    ],
+    "hairStylingAndSetting": [
+      "Hair styling using blow dryer",
+      "Hair ironing",
+      "Hair crimping",
+      "Hair curling",
+      "Hair setting – blast dry",
+      "Hair setting – flat dry",
+      "Hair setting – in curls",
+      "Hair setting – out curls"
+    ],
+    "hairCutting": [
+      "Cutting theory",
+      "Scissor handling",
+      "One length cut",
+      "V cut",
+      "U cut",
+      "Layer cut",
+      "Bob cut (basic)",
+      "Feather cut",
+      "Graduation bob",
+      "Square layer",
+      "Shag cut",
+      "Pixie hair cut",
+      "Face framing",
+      "Natural inversion cut",
+      "Blended elevation"
+    ],
+    "mensGrooming": [
+      "Men’s hair",
+      "Shaving"
+    ],
+    "chemicalAndColourServices": [
+      "Advance colouring",
+      "Ombre colouring",
+      "Balayage",
+      "Hair straightening",
+      "Keratin treatment",
+      "Botox treatment",
+      "Colour theory",
+      "Global colour",
+      "Highlights colour"
+    ],
+    "hairAndScalpTreatments": [
+      "Hair spa",
+      "Anti dandruff treatment"
+    ],
+    "professionalKnowledge": [
+      "Products knowledge"
+    ]
+  },
+  "cta": {
+    "primary": "Enroll Now",
+    "secondary": "View Full Curriculum"
+  },
+  "image": {
+    "alt": "Diploma in Hair Dressing professional salon training",
+    "usage": "course-hero"
+  },
+  "seo": {
+    "metaTitle": "Diploma in Hair Dressing | Muse Academy",
+    "metaDescription": "Join Muse Academy’s Diploma in Hair Dressing. Learn hair styling, cutting, colouring, chemical treatments, men’s grooming & professional salon techniques."
+  }
+}
