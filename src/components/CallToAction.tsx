@@ -29,10 +29,10 @@ const CallToAction = () => {
                 Begin Your Journey
               </p>
               <div className="divider-editorial mx-auto mb-8" />
-              <h2 className="text-8xl mb-8">
+              <h2 className="sm:text-8xl text-5xl mb-8">
                 Ready to become
                 <br />
-                <span className="italic text-9xl">exceptional?</span>
+                <span className="italic sm:text-9xl text-6xl">exceptional?</span>
               </h2>
               <p className="text-editorial text-muted-foreground max-w-xl mx-auto mb-12">
                 Applications are now open for our upcoming cohort. Take the first 
