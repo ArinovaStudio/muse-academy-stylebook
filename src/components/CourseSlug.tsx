@@ -79,7 +79,7 @@ useEffect(() => {
           </div>
 
           <div className="mt-10 flex gap-4">
-            <Link to={`https://wa.me/+918388938664?text=Hello+I+want+to+learn+${data.title}+Please+Tell+me+more+!`} className="px-6 py-3 bg-black text-white border hover:text-black border-transparent hover:bg-transparent transition-all hover:border-black text-sm hover:">
+            <Link to={`https://wa.me/+918388938664?text=${encodeURIComponent(`Hello, I came across "${data.title}" on your website.\nI would like to know more details about this program. Thank you.`)}`} className="px-6 py-3 bg-black text-white border hover:text-black border-transparent hover:bg-transparent transition-all hover:border-black text-sm hover:">
               {data.cta.primary}
             </Link>
             {/* {data.cta.secondary && (

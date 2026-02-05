@@ -28,6 +28,82 @@ const portfolioPairs = [
   },
 ];
 
+const buildWhatsAppMessage = (
+  type: "apply" | "consultation",
+  data: {
+    name: string;
+    email: string;
+    phone: string;
+    date?: Date;
+    program: string;
+    experience?: string;
+    message: string;
+  }
+) => {
+  const formattedDate = data.date
+    ? data.date.toLocaleDateString("en-IN", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+      })
+    : "Not specified";
+
+  if (type === "apply") {
+    return `
+👋 Hello Muse Academy Team,
+
+I hope this message finds you well. I am writing to formally apply for a program at Muse Academy. Please find my details below for your reference:
+
+> About ME
+📛 Full Name: ${data.name}
+📧 Email Address: ${data.email}
+📞 Contact Number: ${data.phone}
+━━━━━━━━━━━━━━━━━━
+> Program I am interested
+📘 Program Applied For: ${data.program}
+📅 Preferred Start Date: ${formattedDate}
+🧠 Experience Level: ${data.experience || "Fresher / Beginner"}
+
+📝 Note
+${data.message}
+
+Thank you for your time and consideration. I would appreciate the opportunity to discuss this further.
+Warm regards,  
+${data.name}
+    `.trim();
+  }
+
+  // Schedule Consultation
+  return `
+👋 Hello Muse Academy Team,
+
+I hope you are doing well. I would like to request a consultation to better understand the programs offered at Muse Academy. Please find my details below:
+
+> About Me
+📛 Full Name: ${data.name}
+📧 Email Address: ${data.email}
+📞 Contact Number: ${data.phone}
+
+━━━━━━━━━━━━━━━━━━
+
+> Consultation Details
+📘 Program of Interest: ${data.program}
+📅 Preferred Consultation Date: ${formattedDate}
+
+━━━━━━━━━━━━━━━━━━
+
+📝 Note
+${data.message}
+
+I would appreciate your guidance in selecting the most suitable program based on my goals.
+Looking forward to your response.
+
+Kind regards,  
+${data.name}
+  `.trim();
+};
+
+
 const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) => {
   const [formData, setFormData] = useState({
     name: "",
@@ -49,31 +125,39 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-    
-    // Reset after showing success
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        date: undefined,
-        program: "",
-        experience: "",
-        message: "",
-      });
-      onClose();
-    }, 2000);
-  };
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+
+  const message = buildWhatsAppMessage(type, formData);
+
+  const whatsappNumber = "+918388938664"; // <-- Muse Academy WhatsApp number
+  const encodedMessage = encodeURIComponent(message);
+
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+  // Open WhatsApp (mobile app or web)
+  window.open(whatsappUrl, "_blank");
+
+  setIsSubmitting(false);
+  setIsSubmitted(true);
+
+  // Reset after success
+  setTimeout(() => {
+    setIsSubmitted(false);
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      date: undefined,
+      program: "",
+      experience: "",
+      message: "",
+    });
+    onClose();
+  }, 2000);
+};
+
 
   return (
     <AnimatePresence>
@@ -307,7 +391,7 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
                                 required
                                 maxLength={20}
                                 className="w-full px-0 py-3 bg-transparent border-b border-border focus:border-foreground outline-none transition-colors font-body"
-                                placeholder="+1 (555) 123-4567"
+                                placeholder="+91 9086XXXX12"
                               />
                             </div>
                           </div>
@@ -344,6 +428,7 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
                                     }
                                     disabled={(date) => date < new Date()}
                                     initialFocus
+                                    required
                                     className={cn("p-3 pointer-events-auto")}
                                   />
                                 </PopoverContent>
@@ -360,6 +445,7 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
                                 id="program"
                                 name="program"
                                 value={formData.program}
+                                required
                                 onChange={handleInputChange}
                                 className="w-full px-0 py-3 bg-transparent border-b border-border focus:border-foreground outline-none transition-colors font-body appearance-none cursor-pointer"
                               >
@@ -425,6 +511,7 @@ const ConsultationPopup = ({ isOpen, onClose, type }: ConsultationPopupProps) =>
                               onChange={handleInputChange}
                               maxLength={1000}
                               rows={3}
+                              required
                               className="w-full px-0 py-3 bg-transparent border-b border-border focus:border-foreground outline-none transition-colors font-body resize-none"
                               placeholder="Tell us about your goals and aspirations..."
                             />

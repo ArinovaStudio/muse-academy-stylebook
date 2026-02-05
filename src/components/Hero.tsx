@@ -16,7 +16,7 @@ import last_image from "@/assets/hero-image.jpg"
 import { FadeImageSlider } from "./FadeInSlider";
 
 
-const heroImages = [heroImage, image_0, image_1, image_2, image_3, image_4, image_5, last_image]
+const heroImages = [heroImage, image_0, image_1, image_2, image_3, image_4, image_5, image_6, image_7, image_8, image_9, last_image]
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-end pb-16 md:pb-24 overflow-hidden">
